@@ -1,4 +1,4 @@
-from AccessModifiersExample import Car
+from python_basic_programs.AccessModifiersExample import Car
 car = Car()
 print(car.public_var)
 print(car._protected_var)
