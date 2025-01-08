@@ -13,3 +13,5 @@ Python Selenium Course info:
             -This file contains code for find_element method and waits(implicit wait,Explicit wait and Fluent Wait).
         3.HandlingDropdowns.py
             -This file contains code for handling dropdowns.
+        4.HandlingLinks.py
+            -This file contains code for fetching hyperlinks.
