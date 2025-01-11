@@ -22,3 +22,9 @@ def data_available(datatable):
 @then('print the details')
 def print_details():
     print('printing the details')
+
+@when('print the below data')
+def print_details(datatable):
+    print('---------',datatable)
+    for r in datatable:
+        print(r)

@@ -5,3 +5,9 @@ Feature: datatables testing
     |name   |id   |city   |country|
     |thomas |101  |belfast|london |
     Then print the details
+
+  Scenario: scenario for datatable testing
+    Given print the given statement
+    When print the below data
+    |grace |102  |belfast|london |
+    Then print the details
