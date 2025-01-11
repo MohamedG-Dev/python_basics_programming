@@ -22,5 +22,5 @@ Pytest BDD info:
             -Folders:
                 features - This folder has feature files
                 steps - This folder has the step definitions
-            -Refer 'Pytest_BDD_Notes' file for the reference on the notes, feature files, step definition and commands to install and run a file
+            -Refer 'Pytest_BDD_Notes' file for the reference of the notes, feature files, step definition and commands to install and run a file
 
