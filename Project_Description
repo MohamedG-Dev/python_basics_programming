@@ -4,7 +4,10 @@ Python Programming - Refer following folders
     1.python_basic_programs
 
 Python Selenium Course info:
-    Selenium version - 4.27.1
+    Prerequisites:
+        command to install selenium - pip install selenium
+        command to update selenium to a latest version -pip install -U selenium
+    Selenium version - 4.27.1 (As of 10-Jan-2025)
     Directory for selenium programs - selenium_programs
     Hierarchy/Flow to Look for the programs
         1.BrowserTest.py
@@ -15,3 +18,12 @@ Python Selenium Course info:
             -This file contains code for handling dropdowns.
         4.HandlingLinks.py
             -This file contains code for fetching hyperlinks.
+
+
+Pytest BDD info:
+    -Refer folder - pytest_bdd_examples
+        -It has the following folder/files:
+            -Folders:
+                features - This folder has feature files
+                steps - This folder has the step definitions
+            -Refer 'Pytest_BDD_Notes' file for the reference on the notes, feature files, step definition and commands to install and run a file

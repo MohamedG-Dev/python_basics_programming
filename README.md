@@ -15,3 +15,12 @@ Python Selenium Course info:
             -This file contains code for handling dropdowns.
         4.HandlingLinks.py
             -This file contains code for fetching hyperlinks.
+
+Pytest BDD info:
+    -Refer folder - pytest_bdd_examples
+        -It has the following folder/files:
+            -Folders:
+                features - This folder has feature files
+                steps - This folder has the step definitions
+            -Refer 'Pytest_BDD_Notes' file for the reference on the notes, feature files, step definition and commands to install and run a file
+

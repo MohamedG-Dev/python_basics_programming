@@ -1,0 +1,29 @@
+command to install pytest bdd -> pip install pytest_bdd
+# pytest-bdd version: 8.1.0 (As of 11-Jan-2025)
+#pytest version: 8.3.4 (As of 11-Jan-2025)
+
+commands/steps to run the pytest files
+1. e.g. FirstStepDefinition.py -> right on the file - run 'FirstStepDefinition' or click on the run button on the top.
+2. command to run pytest using tags for entire feature file and tags -> pytest -k "bdd_parameterized"
+    --just provide the tagname under "" -> syntax: pytest -k "tagname of feature file/scenario(s)"
+
+Notes:
+--the file name and method name should start with 'test'
+    e.g: File name - test_firstStepDefinition.py,
+         method name - @scenario(FEATURE_FILE,'Withdrawal of money')
+                       def test_withdrawal():
+                            print("End of Withdrawal test")
+                            pass
+--Fixture scopes: Fixtures are created when first requested by a test and are destroyed based on their scope.
+    function: the default scope, the fixture is destroyed at the end of the test
+    class: the fixture is destroyed during teardown of the last test in the class
+    module: the fixture is destroyed during teardown of the last test in the module
+    package: the fixture is destroyed during teardown of the lest test in the package
+    session: the fixture is destroyed at the end of the test session
+
+--Order of files to be viewed to learn pytest bdd
+    -1.For 'firstFeature.feature' file, the stepDefinition file name is 'test_firstStepDefinition.py'
+    -2.For 'fixture.feature' file, the stepDefinition file name is 'test_bddFixtures.py'
+    -3.For 'parameterization.feature' file, the stepDefinition file name is 'test_parameterizebdd.py'
+    -4.For 'scenarioOutline.feature' file, the stepDefinition file name is 'test_scenarioOutline.py'
+    -5.For 'dataTables.feature' file, the stepDefinition file name is 'test_datatablebdd.py'
