@@ -1,5 +1,8 @@
 
+The divmod() method takes two numbers  as arguments and returns their quotient and remainder in a tuple.
 
+In python, the list is created by placing element inside square brackets, separated by commas(,).
+        e.g. list of integers -> my_list = [1,2,3,4,5]
 Dictionaries:
     -Dictionaries are used to store data values in {key:value} pairs
     -Dictionaries are written with curly braces - {}
@@ -11,3 +14,10 @@ Dictionaries:
         "year":2010
         }
         print(LearnSite["brand"])
+
+Python - Assert Statement:
+    In Python, the assert statement is used to continue the execution if the given condition evaluates
+    to be True. If the assert evaluates to be False, then it raises the AssertionError exception
+    with the specified error message.
+        Syntax: assert condition [,Error Message]
+

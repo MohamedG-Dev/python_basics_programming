@@ -46,8 +46,19 @@ Pytest - it is a framework.
             - and type the following command in the cmd prompt-> .venv\Scripts\activate
             - the type the following command-> pytest -v pytest_examples\test_firstTest.py
 
+    Files to be referred as part of learning:
+        Folder: pytest_examples
+            1.test_firstTest.py
+            2.test_first_AssertionExamples.py
+
     Notes:
     -pytest executes test methods in a sequential manner
     -pytest --cache-show -> this the command will show the last executed test information
     -pytest --cache-clear -> this command will clear all the pytest cache files
-
+    -assert is a part of Python Library.
+    -Python - Assert Statement: In Python, the assert statement is used to continue the execution if the
+        given condition evaluates to be True. If the assert evaluates to be False, then it raises the
+        AssertionError exception with the specified error message.
+            Syntax: assert condition [,Error Message]
+    -assert 1 is equals assert True, assert 0 is equals assert False
+    -The divmod() method takes two numbers  as arguments and returns their quotient and remainder in a tuple
