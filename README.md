@@ -16,6 +16,11 @@ Python Selenium Course info:
         4.HandlingLinks.py
             -This file contains code for fetching hyperlinks.
 
+Pytest info:
+    -Refer folder - pytest_examples - This folder has the examples of pytest.
+    -Refer 'pytest_notes' for the notes and information about the pytest;
+    -Current version of pytest - 8.3.4 (As of 11-Jan-2025)
+
 Pytest BDD info:
     -Refer folder - pytest_bdd_examples
         -It has the following folder/files:

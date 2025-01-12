@@ -1,0 +1,53 @@
+Pytest - it is a framework.
+    version -  8.3.4 (As of 11-Jan-2025)
+    why framework?
+        -Structure our test
+        -Added helpful features
+        -More focus on writing and adding tests
+
+    About Pytest:
+        -Test Framework based on python language
+        -Easy to write, execute and generate test reports
+        -can be used for different types of testing and different levels of testing
+        -used by both Developer as well as QA team
+
+    Why pytest?
+        -Easy of use
+        -it can auto-detect tests
+        -Grouping/marking tests
+        -uses python's assert keyword
+        -we can use tests written for unittest or nose
+        -CI/CD integration
+        -Good features - fixtures,parameterization,etc
+        -Good community support and actively developed
+
+    --for pytest we need to have venv folder(virtual environment)
+    --.venv will be created at the root level
+    --command to install pytest -> pip install pytest
+    --command to install pytest with specific version -> pip install pytest==8.3.4(current version as of 12Jan2025)
+    --command to check the list of packages installed -> pip list
+    --command to put all the packages into a file -> pip freeze >requirements.txt
+
+    naming conventions: test file name should start with 'test_filename'. e.g. test_firstTest
+        -The same goes with the function name. e.g def test_<function_name>()
+        -pytest is going to search for the test files in current directory and subdirectories
+
+    Rules for pytest:
+        -Name all the test modules with test_<filename/module name>.py
+        -Name all the test functions with test_<function name>
+        -Test classes should be named as Test<somename>
+        -Properly group all the tests in to test/packages
+
+    commands to run the pytest:
+        - to run a folder, use terminal to run the following command-> pytest pytest_examples
+           -'pytest_examples' is the folder name
+        - another way to run a pytest is using verbose mode-> pytest -v pytest_examples
+        - using windows command prompt->navigate to the folder structure, in our case inside 'BasicPythonLearning' folder and type cmd
+            - and type the following command in the cmd prompt-> .venv\Scripts\activate
+            - the type the following command-> pytest -v pytest_examples\test_firstTest.py
+
+    Notes:
+    -pytest executes test methods in a sequential manner
+    -pytest --cache-show -> this the command will show the last executed test information
+    -pytest --cache-clear -> this command will clear all the pytest cache files
+
