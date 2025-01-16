@@ -42,14 +42,21 @@ Pytest - it is a framework.
         - to run a folder, use terminal to run the following command-> pytest pytest_examples
            -'pytest_examples' is the folder name
         - another way to run a pytest is using verbose mode-> pytest -v pytest_examples
+        - command to run a pytest file using verbose mode-> pytest -v foldername\filename.py
+            e.g: pytest -v pytest_examples\test_classExample.py
         - using windows command prompt->navigate to the folder structure, in our case inside 'BasicPythonLearning' folder and type cmd
             - and type the following command in the cmd prompt-> .venv\Scripts\activate
             - the type the following command-> pytest -v pytest_examples\test_firstTest.py
+        - command to run entire pytest project in the command line - pytest (or) pytest -v
+        - command to run a particular class in pytest - pytest -v folder_name\file_name::class_name
+            e.g: pytest -v pytest_examples\test_classExample.py::TestClassExample
 
     Files to be referred as part of learning:
         Folder: pytest_examples
             1.test_firstTest.py
             2.test_first_AssertionExamples.py
+            3.test_classExample.py
+            4.test_raises_assertions.py
 
     Notes:
     -pytest executes test methods in a sequential manner
